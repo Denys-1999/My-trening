@@ -1,0 +1,235 @@
+@import "zeroing";
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+}
+h3{
+  font-weight: 400;
+font-size: 32px;
+line-height: 112%;
+}
+header{
+ background: #52503B;
+ height: 70px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  position: relative;
+
+}
+nav a{
+font-size: 15px;
+line-height: 133%;
+color: #FFFFFF;
+margin: 0 auto;
+}
+.logo-top {
+  position: absolute;
+  left: 0;
+}
+.link_contant {
+  margin: 0 24px;
+}
+.link_top_riht {
+  position: absolute;
+  right: 0;
+  a{
+    color: #52503B;
+    font-size: 16px;
+    line-height: 125%;
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding: 11px 18px;
+  }
+}
+.block_1 {
+  background: url(/img/backgraund.png) no-repeat;
+  max-width: 100%;
+  height: 800px;
+}
+.main_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  p{
+    line-height: 143%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+}
+h2{
+  max-width: 1174px;
+  font-size: 48px;
+  line-height: 110%;
+  margin: 34px 0;
+
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.logo_main {
+  margin-top: 248px;
+}
+.mous {
+  margin: 116px 0 99px 0;
+}
+.block_2 {
+  background: #FAF8F0;
+  img{
+    margin: 0 auto;
+    padding: 100px 0 33px 0;
+    display: block;
+  }
+  
+}
+.block_text {
+  width: 800px;
+  padding:0 0 100px 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 0 auto;
+  p{
+    line-height: 143%px;
+    color: #333333;
+  }
+}
+.p_1 {
+  width: 360px;
+}
+.p_2 {
+  width: 343px;
+  p{
+    margin-bottom: 41px;
+  }
+  a{
+    color:#FFFFFF;
+    font-size: 16px;
+    line-height: 125%;
+    background: #52503B;
+    border-radius: 6px;
+    padding: 11px 18px;
+  }
+}
+.block_3_h1{
+  img{
+    display: block;
+    margin: 100px auto 32px auto;
+    
+  }
+  h1{
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100%;
+    text-align: center;
+    color: #52503B;
+    margin-bottom: 140px;
+  }
+}
+.block_4{
+  overflow: hidden;
+}
+.block_5{
+  background: #FAF8F0;
+  color: #52503B;
+  padding: 100px 0;
+}
+.block_5_title{
+  width: 600px;
+  padding: 0 0 32px 0;
+  margin: 0 auto;
+  text-align: center;
+  p{
+    font-size: 16px;
+    line-height: 150%;
+  }
+}
+.Sleep_arrangments_erap {
+  display: flex;
+  margin: 0 16px 0 16px;
+  justify-content:space-between;
+  >div{
+    width: 347px;
+  }
+  img{
+    margin: 0 auto 12px auto;
+    display: block;
+  }
+  h5{
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #52503B;
+  }
+  p{
+    line-height: 143%;
+    text-align: center;
+    color: #52503B;
+  }
+}
+.beds {
+  width: 346px;
+}
+.bedrooms {
+  width: 331px;
+}
+.bathrooms {
+  width: 343px;
+  img{
+    margin: 0 auto 15px auto;
+  }
+}
+.perfect_espace_wrap {
+  margin: 100px auto;
+  width: 1168px;
+  padding-bottom: 100px;
+
+}
+.perfect_espace_title {
+  color: #52503B;
+  width: 600px;
+  p{
+    line-height: 150%;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+}
+.perfect_espace_calm_wrap {
+  line-height: 143%;
+  color: #333333;
+  display: flex;
+}
+.perfect_espace_calm_1 {
+  div{
+    margin: 32px 0;
+    display: flex;
+    width: 568px;
+    gap: 16px;
+  }
+}
+.perfect_espace_calm_2 {
+  div{
+    margin: 32px 0;
+    display: flex;
+    width: 568px;
+    gap: 16px;
+  }
+  .cutlery{
+    gap: 22px;
+    img{
+      display: inline-block;
+      margin-left: 6px;
+    }
+  }
+}
